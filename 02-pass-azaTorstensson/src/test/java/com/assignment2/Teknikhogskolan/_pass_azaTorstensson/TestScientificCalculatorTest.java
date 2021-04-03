@@ -20,7 +20,7 @@ public class TestScientificCalculatorTest {
 
 		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.pow(firsttempRandomValue , 2);
-		System.out.println("Testing the method square with: firsttempRandomValue, 2    ");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method square with: firsttempRandomValue, 2    ");
 
 		assertEquals(scientificCalculator.square(firsttempRandomValue), tempResult,0);
 
@@ -32,7 +32,7 @@ public class TestScientificCalculatorTest {
 
 		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.pow(firsttempRandomValue , 2);
-		System.out.println("Testing the method square with:     ");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method square with:     ");
 
 		assertEquals(scientificCalculator.square(firsttempRandomValue), tempResult,-5);
 
@@ -44,7 +44,7 @@ public class TestScientificCalculatorTest {
 
 		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.pow(firsttempRandomValue , 2);
-		System.out.println("Testing the method square with:     ");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method square with:     ");
 
 		assertEquals(scientificCalculator.square(firsttempRandomValue), tempResult,+5);
 
@@ -57,7 +57,7 @@ public class TestScientificCalculatorTest {
 		firsttempRandomValue = random.nextDouble();
 
 		tempResult = Math.abs(firsttempRandomValue);
-		System.out.println("Testing the method abs with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method abs with:");
 
 		assertEquals(scientificCalculator.abs(firsttempRandomValue), tempResult,0);
 
@@ -70,7 +70,7 @@ public class TestScientificCalculatorTest {
 		firsttempRandomValue = random.nextDouble();
 
 		tempResult = Math.abs(firsttempRandomValue);
-		System.out.println("Testing the method abs with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method abs with:");
 
 		assertEquals(scientificCalculator.abs(firsttempRandomValue), tempResult,-5);
 
@@ -83,8 +83,7 @@ public class TestScientificCalculatorTest {
 		firsttempRandomValue = random.nextDouble();
 
 		tempResult = Math.abs(firsttempRandomValue);
-		System.out.println("Testing the method abs with:");// vad ska stå här för att det ska bli snyggt?
-
+		System.out.println("Testing the method abs with:");
 		assertEquals(scientificCalculator.abs(firsttempRandomValue), tempResult,+5);
 
 	}
@@ -94,9 +93,9 @@ public class TestScientificCalculatorTest {
 		double firsttempRandomValue = 0;
 		double tempResult = 0;
 
-		firsttempRandomValue = random.nextDouble();// men jag vill ha typ -5 till +5
+		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.ceil(firsttempRandomValue);
-		System.out.println("Testing the method ceil with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method ceil with:");
 
 		assertEquals(scientificCalculator.ceil(firsttempRandomValue), tempResult,0);
 	}
@@ -108,7 +107,7 @@ public class TestScientificCalculatorTest {
 
 		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.ceil(firsttempRandomValue);
-		System.out.println("Testing the method ceil with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method ceil with:");
 
 		assertEquals(scientificCalculator.ceil(firsttempRandomValue), tempResult,-5);
 	}
@@ -120,7 +119,7 @@ public class TestScientificCalculatorTest {
 
 		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.ceil(firsttempRandomValue);
-		System.out.println("Testing the method ceil with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method ceil with:");
 
 		assertEquals(scientificCalculator.ceil(firsttempRandomValue), tempResult,+5);
 	}
@@ -131,7 +130,7 @@ public class TestScientificCalculatorTest {
 
 		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.floor(firsttempRandomValue);
-		System.out.println("Testing the method floor with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method floor with:");
 
 		assertEquals(scientificCalculator.floor(firsttempRandomValue), tempResult,0);
 	}
@@ -140,9 +139,9 @@ public class TestScientificCalculatorTest {
 		double firsttempRandomValue = 0;
 		double tempResult = 0;
 
-		firsttempRandomValue = random.nextDouble();// men jag vill ha typ -5.0 till +5.0
+		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.floor(firsttempRandomValue);
-		System.out.println("Testing the method floor with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method floor with:");
 
 		assertEquals(scientificCalculator.floor(firsttempRandomValue), tempResult,-5);
 	}
@@ -153,7 +152,7 @@ public class TestScientificCalculatorTest {
 
 		firsttempRandomValue = random.nextDouble();
 		tempResult = Math.floor(firsttempRandomValue);
-		System.out.println("Testing the method floor with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method floor with:");
 
 		assertEquals(scientificCalculator.floor(firsttempRandomValue), tempResult,+5);
 	}
@@ -166,7 +165,7 @@ public class TestScientificCalculatorTest {
 		firsttempRandomValue = random.nextDouble();
 		secondtempRandomValue = random.nextDouble();
 		tempResult = Math.max(firsttempRandomValue, secondtempRandomValue);
-		System.out.println("Testing the method max with:       ");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method max with:       ");
 
 
 		assertEquals(scientificCalculator.max(firsttempRandomValue, secondtempRandomValue), tempResult,0);
@@ -180,7 +179,7 @@ public class TestScientificCalculatorTest {
 		firsttempRandomValue = random.nextDouble();
 		secondtempRandomValue = random.nextDouble();
 		tempResult = Math.max(firsttempRandomValue, secondtempRandomValue);
-		System.out.println("Testing the method max with:       ");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method max with:       ");
 
 
 		assertEquals(scientificCalculator.max(firsttempRandomValue, secondtempRandomValue), tempResult,-5);
@@ -194,7 +193,7 @@ public class TestScientificCalculatorTest {
 		firsttempRandomValue = random.nextDouble();
 		secondtempRandomValue = random.nextDouble();
 		tempResult = Math.max(firsttempRandomValue, secondtempRandomValue);
-		System.out.println("Testing the method max with:       ");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method max with:       ");
 
 
 		assertEquals(scientificCalculator.max(firsttempRandomValue, secondtempRandomValue), tempResult,+5);

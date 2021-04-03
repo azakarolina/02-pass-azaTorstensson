@@ -1,0 +1,5 @@
+com/example/calculator/interfaces/BasicMathOperations.class
+com/example/calculator/classes/ScientificCalculator.class
+com/example/calculator/classes/SimpleCalculator.class
+com/example/calculator/interfaces/AdvancedMathOperations.class
+com/example/calculator/Main/Main.class

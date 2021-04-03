@@ -33,7 +33,7 @@ public class TestSimpleCalculatorTest extends SimpleCalculator {
 		firsttempRandomValue = random.nextDouble();
 		secondtempRandomValue = random.nextDouble();
 				tempResult = secondtempRandomValue + firsttempRandomValue;
-				System.out.println("Testing the method addition with:" );// vad ska stå här för att det ska bli snyggt?
+				System.out.println("Testing the method addition with:" );
 		assertEquals(simpleCalc.addition( firsttempRandomValue, secondtempRandomValue),tempResult,-5);
 	}	
 	@Test
@@ -45,24 +45,11 @@ public class TestSimpleCalculatorTest extends SimpleCalculator {
 		firsttempRandomValue = random.nextDouble();
 		secondtempRandomValue = random.nextDouble();
 				tempResult = secondtempRandomValue + firsttempRandomValue;
-				System.out.println("Testing the method addition with:" );// vad ska stå här för att det ska bli snyggt?
+				System.out.println("Testing the method addition with:" );
 		assertEquals(simpleCalc.addition( firsttempRandomValue , secondtempRandomValue),tempResult,+5);
 	}		
 		
-	@Test
-	public void testsubtraction1() {
-		double firsttempRandomValue = 0;
-		double secondtempRandomValue = 0;
-		double tempResult = 0;
-		
-		firsttempRandomValue = random.nextDouble();
-		secondtempRandomValue = random.nextDouble();
-		
-		tempResult = firsttempRandomValue-firsttempRandomValue;
-		System.out.println("Testing the method subtraction with:");// vad ska stå här för att det ska bli snyggt?
-		
-		assertEquals(simpleCalc.subtraction(firsttempRandomValue,secondtempRandomValue),tempResult,0);
-	}
+	
 
 	@Test
 	public void testsubtraction2() {
@@ -88,7 +75,7 @@ public class TestSimpleCalculatorTest extends SimpleCalculator {
 		secondtempRandomValue = random.nextDouble();
 		
 		tempResult = firsttempRandomValue-secondtempRandomValue;
-		System.out.println("Testing the method subtraction with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method subtraction with:");
 		
 		assertEquals(simpleCalc.subtraction(firsttempRandomValue,secondtempRandomValue),tempResult,+5);
 	}
@@ -103,7 +90,7 @@ public class TestSimpleCalculatorTest extends SimpleCalculator {
 		secondtempRandomValue = random.nextDouble();
 		
 		tempResult = firsttempRandomValue*secondtempRandomValue;
-		System.out.println("Testing the method multiplication with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method multiplication with:");
 		
 		assertEquals(simpleCalc.multiplication(firsttempRandomValue,secondtempRandomValue),tempResult,0);
 	}
@@ -117,7 +104,7 @@ public class TestSimpleCalculatorTest extends SimpleCalculator {
 		secondtempRandomValue = random.nextDouble();
 		
 		tempResult = firsttempRandomValue*secondtempRandomValue;
-		System.out.println("Testing the method multiplication with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method multiplication with:");
 		
 		assertEquals(simpleCalc.multiplication(firsttempRandomValue,secondtempRandomValue),tempResult,-5);
 	}
@@ -131,7 +118,7 @@ public class TestSimpleCalculatorTest extends SimpleCalculator {
 		secondtempRandomValue = random.nextDouble();
 		
 		tempResult = firsttempRandomValue*secondtempRandomValue;
-		System.out.println("Testing the method multiplication with:");// vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method multiplication with:");
 		
 		assertEquals(simpleCalc.multiplication(firsttempRandomValue,secondtempRandomValue),tempResult,+5);
 	}
@@ -146,7 +133,7 @@ public class TestSimpleCalculatorTest extends SimpleCalculator {
 		secondtempRandomValue = random.nextDouble();
 			
 		tempResult = firsttempRandomValue/secondtempRandomValue;
-		System.out.println("Testing the method division with:");//  vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method division with:");
 			
 		assertEquals(simpleCalc.division(firsttempRandomValue,secondtempRandomValue),tempResult,0);
 	}
@@ -160,7 +147,7 @@ public class TestSimpleCalculatorTest extends SimpleCalculator {
 		secondtempRandomValue = random.nextDouble();
 			
 		tempResult = firsttempRandomValue/secondtempRandomValue;
-		System.out.println("Testing the method division with:");//  vad ska stå här för att det ska bli snyggt?
+		System.out.println("Testing the method division with:");
 			
 		assertEquals(simpleCalc.division(firsttempRandomValue,secondtempRandomValue),tempResult,-5);
 	}

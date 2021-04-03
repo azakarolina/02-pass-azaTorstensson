@@ -8,16 +8,7 @@ public class ScientificCalculator extends SimpleCalculator implements AdvancedMa
 		double result = number * number;
 		return result;
 	}
-	//public double raisedToThePowerOf(double base, double exponent) {
-	//	double result = Math.pow(base,exponent);
-	//	return result;
-		
-	//}
 	
-	//public double remainder(double dividend, double divisor) {
-		//double result = dividend % divisor;
-		//return result;
-	//}
 	public double abs(double number) {
 		double result = Math.abs(number);
 		return result;
